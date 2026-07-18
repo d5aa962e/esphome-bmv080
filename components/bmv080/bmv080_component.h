@@ -40,8 +40,8 @@
 #include "esphome/components/binary_sensor/binary_sensor.h"
 
 // Bosch SDK headers — resolved via -I<bosch_dir> build flag
-#include "bosch/bmv080_defs.h"
-#include "bosch/bmv080.h"
+#include "bmv080_defs.h"
+#include "bmv080.h"
 
 // FreeRTOS headers for dedicated task and mutex
 #include "freertos/FreeRTOS.h"
